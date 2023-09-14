@@ -248,6 +248,11 @@ ul li a:hover
     border-radius: 15px;
 }
 
+.btn.btn2:hover
+{
+    background-color: #e4e4e4;
+}
+
 .contact-right form
 {
     width: 100%;
