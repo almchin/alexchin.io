@@ -3,7 +3,7 @@
 
 int main()
 {
-	std::cout << "this is just a sample" << std::endl;
+	std::cout << "sample" << std::endl;
 
 	return 0;
 }
