@@ -14,16 +14,23 @@
     <div class="container">
         <nav>
             <img src="images/logo.png" class="logo">
-            <ul>
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="blog-list.html">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
         </nav>
-        <div class="header-text">
-            <p>2nd-year Computer Science Student at<br><span>The College of Alameda</span></p>
-            <h1>Hello World.<br>I'm <span>Alex Chin</span> from<br>San Francisco, California</h1>
-        </div>
+            <div class="header-content">
+                <div class="header-text">
+                    <p>2nd-year Computer Science Student at<br><span>The College of Alameda</span></p>
+                    <h1>Hello World.<br>I'm <span>Alex Chin</span> from<br>San Francisco, California</h1>
+                </div>
+
+                <div class="header-col-2">
+                    <img src="images/7f8788df-a6ce-4164-aa3d-32f61812f9ff.jpg">
+                </div>
+            </div>
     </div>
 </div>
 
@@ -38,7 +45,7 @@
                 <h1 class="sub-title">About Me</h1>
                 <p>Alexander "Alex" Chin was born in San Francisco, California and grew up in Alameda, California. He has always been surrounded by
                      computers his entire life and looks forward to seeking more opportunities to refine his skills in computer programming
-                     inclduing potential in computer engineering, video-game development, and social media management. <br><br>Hobbies: Video-games, Volleyball, Swimming, Running, Photography, Building Keyboards/Computers, Piano, and Guitar :)</p>
+                     including potential opportunities in computer engineering, video-game development, and social media management. <br><br>Hobbies: Video-games, Volleyball, Swimming, Running, Photography, Building Keyboards/Computers, Piano, and Guitar :)</p>
 
                      <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
@@ -57,6 +64,7 @@
                      </div>
                      <div class="tab-contents" id="experience">
                         <ul>
+                            <li><span>California Pacific Medical Center (Sutter Health) || Intern || Nov 2023 - Present</span><br>Patient Transport Assitant<br>Assisted with ICU tasks including answering phone calls and transporting blood/blood gas tests<br>Assisted both pre-operation and post-operation patients in the ACU</li>
                             <li><span>Alameda Recreation and Park Department || Lifeguard/Aquatics Instructor || Jun 2022 - Present</span><br>Water Safety Instructor<br>Swim Teacher/Coach<br>CPR and First Aid<br>Pool Management<br>Customer Service</li>
                             <li><span>Encinal High School Men's Volleyball || Social Media Management || Dec 2021 - Apr 2022</span><br>Media Production and Editing<br><a href="https://instagram.com/ehsmensvball">Encinal Men's Volleyball Instagram</a><br><a href="https://instagram.com/by.a1ex">Photography Portfolio</a><span> (active)</span></li>
                             <li><span>Target || Food and Beverage Expert || Sep 2021 - Jun 2022</span><br>Trainer<br>Cashier<br>Team Management<br>Customer Service</li>
@@ -128,6 +136,7 @@
     }
 
 </script>
+
 <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbzeB1f-_Q24WjQ3C1ySsApCKXma778muJfwpt9WVnOt-NCw1_MVm3pAWdhfVV9R9aW4Ow/exec'
     const form = document.forms['submit-to-google-sheet']
@@ -148,5 +157,6 @@
         .catch(error => console.error('Error!', error.message))
     })
   </script>
+
 </body>
 </html>
