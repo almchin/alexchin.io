@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 *{
     margin: 0;
@@ -19,7 +22,7 @@ body
 #header
 {
     width: 100%;
-    height: 100vh;
+    height: 900px;
     background-size: cover;
     background-position: center;
 }
@@ -30,6 +33,7 @@ body
     background-size: cover;
     background-position: center;
 }
+
 .container
 {
     padding: 10px 10%;
@@ -91,7 +95,7 @@ nav ul li a:hover::after
 {
     flex-basis: 25%;
     font-size:55px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .header-text p span
@@ -109,6 +113,7 @@ nav ul li a:hover::after
     display: flex;
     justify-content: space-between; 
     align-items: center;   
+    margin-top: -40px;
 }
 
 .header-col-2 img
